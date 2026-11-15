@@ -183,15 +183,3 @@ USB-Stick (PS2USB)
 - Für Spiele muss die SSD später entsprechend der gewählten **OPL-/HDD-Methode** eingerichtet werden. Bei der klassischen Methode gehören dazu HDD-Formatierung, Partitionierung und die Installation von OPL; das wird am besten in einer **eigenen Anleitung** durchgeführt.
 - **Wichtig:** Den gerade geschriebenen HDD-Bootstrap nicht mit einer fertigen Free-HDBoot-Installation verwechseln.
 
-## 12. Fehlerbehebung für Anfänger
-
-| Problem | Zuerst prüfen |
-| --- | --- |
-| **Wo ist `__mbr.raw`?** | Den Direktdownload aus Abschnitt 3 verwenden; zwei Unterstriche vor `mbr.raw`. |
-| **Brauche ich `__mbr.raw`?** | Ja, für genau diesen Erststart über die SSD ohne FMCB-Karte; nein, wenn bereits ein anderer wLaunchELF-Startweg vorhanden ist. |
-| **Was ist Rufus?** | Ein Windows-Programm zum Formatieren des USB-Sticks – siehe Abschnitt 4. |
-| **USB-Stick auf der PS2 nicht sichtbar** | FAT32 prüfen, anderen vorderen USB-Port testen, Stick gegebenenfalls wechseln. |
-| **Ich sehe kein `BOOT.ELF`** | Liegt die Datei wirklich im Hauptverzeichnis des USB-Sticks? |
-| **Installer-Datei nicht gefunden** | Entpackten Installer-Ordner samt Unterordnern prüfen; nicht bloß das `.7z`-Archiv kopieren. |
-| **PS2 zeigt nur Sony-Browser** | HDD-Start möglicherweise deaktiviert oder SSD/Adapter/Image nicht passend; keinen weiteren Formatversuch auf Verdacht. |
-| **FMCB startet ohne SSD nicht** | Slot 1 prüfen, Erfolgsmeldung der Installation und korrekte Installationsvariante kontrollieren. |
